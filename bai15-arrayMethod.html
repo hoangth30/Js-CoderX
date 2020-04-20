@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ARRAY METHOD</h1>
+    <ul>
+        <li>
+            <h2>Array.from()</h2>
+            <p> Creates a new, shallow-copied Array instance from an array-like or iterable object.</p>
+            <p> - array-like objects (objects with a length property and indexed elements);</p>
+            <p> - iterable objects (objects such as Map and Set)</p>
+            <p> Return VALUES OF ARRAY</p>
+
+        </li>
+        <li>
+            <h2>Array.isArray()</h2>
+            <p> Determines the passed values is an array or not</p>
+            <p> Return TRUE if the value is ARRAY, otherwise, FALSE</p>
+
+        </li>
+        <li>
+            <h2>Array.of()</h2>
+            <p> Creates a new array instance from variables number of argument or types</p>
+            <p> Return ARRAY INSTANCE</p>
+        </li>
+        <li>
+            <h2>Array.concat()</h2>
+            <p> Used to merge two or more arrays, does not change the existing array</p>
+            <p> Return NEW ARRAY</p>
+        </li>
+        <li>
+            <h2>Array.copyWithin()</h2>
+            <p>/////</p>
+        </li>
+        <li>
+            <h2>Array.entries()</h2>
+            <p>/////</p>
+        </li>
+        <li>
+            <h2>Array.every()</h2>
+            <p>/////</p>
+        </li>
+        <li>
+            <h2>Array.slice()</h2>
+            <p> Creates a new shallow-copied of 1 part from existing array into new array, which is selected from begin
+                to end (not included end). begin/end represents the index of items. The original array is not modified
+            </p>
+            <p> + begin: 1. negative index can be used, e.g: slice(-2), takes two last elements; 2. undefined, start from 0; 3. greater than range, return empty array</p>
+            <p> + end: </p>
+            <p> Return ARRAY CONTAINING EXTRACTED ITEMS</p>
+
+        </li>
+        <li>
+            <h2>Array.splice()</h2>
+            <p> Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place</p>
+        </li>
+        <li>
+            <h2>1</h2>
+            <p>aaaaa</p>
+        </li>
+        <li>
+            <h2>1</h2>
+            <p>aaaaa</p>
+        </li>
+        <li>
+            <h2>1</h2>
+            <p>aaaaa</p>
+        </li>
+        <li>
+            <h2>1</h2>
+            <p>aaaaa</p>
+        </li>
+
+
+
+    </ul>
+
+</body>
+<script>
+    function removeEnd(arr, n) {
+        for (var i = 0; i < n; i++) {
+            arr.pop(i);
+        }
+        console.log(arr);
+        return arr;
+    }
+
+    removeEnd([3, 2, 1, 3, 4, 5], 1);
+
+    function first(arr, n) {
+        var element = [];
+        for (var i = 0; i < n; i++) {
+            element.push(arr.shift(i));
+        }
+        return element;
+    }
+
+    first([3, 2, 1, 3, 4, 5], 2);
+</script>
+
+</html>
