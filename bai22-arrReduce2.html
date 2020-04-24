@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // Given an array of arrays, flatten them into a single array
+    /**
+     * Example: 
+     * var arrays = [
+     *    ["1", "2", "3"],
+     *    [true],
+     *    [4, 5, 6]
+     *  ];
+     * 
+     * flatten(arrays) // ["1", "2", "3", true, 4, 5, 6];
+     */
+
+    var arrays = [
+        ["1", "2", "3"],
+        [true],
+        [4, 5, 6]
+    ];
+    function flatten(arr) {
+        var joinArr = arr.reduce(function (prev, current) {
+            return prev.concat(current);
+        }, [])
+        return joinArr;
+    }
+
+    console.log(flatten(arrays));
+
+    /**
+ * Count the occurrences of each element inside an array using reduce
+ * @params {array}
+ * @return {object}
+ * Example: 
+ * countOccurrences(['a', 'b', 'c', 'b', 'a']) // { a: 2, b: 2, c: 1 };
+}
+*/
+    let arr = ['c', 'b', 'a', 'b', 'a'];
+
+    function countOccurrences(arr) {
+        var countOcc = arr.reduce(function (allItem, item) {
+            if (item in allItem) {
+                if (allItem.hasOwnProperty(item)) {
+                    allItem[item]++; //allItem[item] là value của item 
+                    //item là key
+                }
+                console.log(allItem[item])
+            } else {
+                allItem[item] = 1;
+            }
+            return allItem;
+        }, {})
+        return countOcc;
+    }
+    console.log(countOccurrences(arr));
+
+
+// countedNames is:
+// { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
+
+</script>
+
+</html>
