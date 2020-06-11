@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-<script>
-    // Viết hàm trả về số chẵn đầu tiên trong mảng sử dụng find method
+// Viết hàm trả về số chẵn đầu tiên trong mảng sử dụng find method
     // Nếu không tìm thấy số chẵn nào thì trả về undefined
     function findFirstEvenNumber(array) {
         var evenNumber = array.find(function (number) {
@@ -48,9 +35,3 @@
     }
 
     console.log(findDivisibleNum([1,3,4], 2));
-
-
-
-</script>
-
-</html>

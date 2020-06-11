@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-
-<script>
-
 // function sum(array) {
 //   var total = 0;
 //   for (var i = 0; i < array.length; i++){
@@ -56,7 +43,3 @@ function has(array, value) {
 }
 
 has([5, 1, 8, 2], 899);
-
-    
-</script>
-</html>

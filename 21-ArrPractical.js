@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-<script>
     // ----- filter product by category id
     var listProducts = [{
         id: 1,
@@ -102,6 +90,3 @@ function removeDuplicate(array){
  */
     var array = [1, 1, 2, 2, 2, 3, 4];
     console.log(removeDuplicate(array));
-</script>
-
-</html>

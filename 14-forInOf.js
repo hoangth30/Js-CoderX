@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-<script>
-    /*     // for...in - use to access object properties
+  /*     // for...in - use to access object properties
         // key represents for KEY, myClass[key] is Value
         var myClass = {
             width: 56,
@@ -121,8 +107,3 @@
            }
            return false;
        } */
-
-
-</script>
-
-</html>

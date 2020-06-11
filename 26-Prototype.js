@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-<script>
     /*
   Viết hàm xây dựng các đối tượng student có các thuộc tính sau:
   - name: String,
@@ -60,7 +48,3 @@
     var student2 = new Student(8, 9, 6);
     console.log('DTB student1: '+student1.average());
     console.log('DTB student2: '+student2.average());
-
-</script>
-
-</html>

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-<script>
     // Sử dụng sort method để sắp xếp lại 1 array các số sau theo thứ tự tăng dần (ascending order)
     // <0
     function sortNumber(arr) {
@@ -101,6 +89,3 @@
     }
 
     console.log(getTopStudents(students))
-</script>
-
-</html>
